@@ -45,12 +45,12 @@ Here are the first few lines of the bitcoin-qt.pro where the dependecies are dec
 
 ##Compile!
 
-    qmake -qt=qt4 "USE_UPNP=-"
+    qmake "USE_UPNP=-"
     make
 
 ##Start the wallet
 
-    ./litecoin-qt &
+    ./litecoin-qt
     
 ## To mine (make money!), go to help -> debug window, and type:
   
