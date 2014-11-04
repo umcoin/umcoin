@@ -45,7 +45,7 @@ Here are the first few lines of the bitcoin-qt.pro where the dependecies are dec
 
 ##Compile!
 
-    qmake "USE_UPNP=-"
+    qmake
     make
 
 ##Start the wallet
